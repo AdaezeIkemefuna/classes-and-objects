@@ -11,7 +11,7 @@ class Student:
 
     def change_age(self, age):
         self.age = age
-        print('I am', self.age, 'years old.')
+        print('I am', self.age, 'years old.')   
 
     def add_track(self, track):
         self.track = track
@@ -20,8 +20,10 @@ class Student:
     def get_score(self, score):
         self.score = score
         print('I scored', self.score)
+        
 
 Bob = Student("Bob", 20, ["FE", "BE"], 43.5)
+
 
 # Expected methods
 Bob.change_name("Peter")
